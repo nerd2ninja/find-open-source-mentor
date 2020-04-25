@@ -31,11 +31,17 @@ So, here the story begins...
 ### How you can start contribute?
 #Note that these instructions are Ubuntu only
   - Fork this repo
+
   -sudo apt-get install software-properties-common
+
   -sudo apt-add-repository -y ppa:rael-gc/rvm
+
   -sudo apt-get update
+
   -sudo apt-get install rvm
+
   -gem install bundler
+
   - git clone https://github.com/arkency/find-open-source-mentor
   - Go to the find-open-source-mentor directory in your terminal (`cd find-open-source-mentor`)
   -sudo rvm install ruby-2.6.0
