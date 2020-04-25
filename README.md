@@ -29,10 +29,19 @@ So, here the story begins...
   - Pull requests reviewing and commenting
 
 ### How you can start contribute?
+#Note that these instructions are Ubuntu only
   - Fork this repo
+  -sudo apt-get install software-properties-common
+  -sudo apt-add-repository -y ppa:rael-gc/rvm
+  -sudo apt-get update
+  -sudo apt-get install rvm
+  -gem install bundler
   - git clone https://github.com/arkency/find-open-source-mentor
   - Go to the find-open-source-mentor directory in your terminal (`cd find-open-source-mentor`)
+  -sudo rvm install ruby-2.6.0
+  -sudo apt install ruby-railties
   - if needed `rvm use ruby-2.6.0` (close and open Terminal to apply changes)
+  -sudo apt-get install libpq-dev
   - `bundle install`
   - Go to https://github.com/settings/tokens and create your personal api_tokens, which are specified in .env.example
   - Create file .env in main directory (same directory where .env.example is) and specify those keys there, for example: 
