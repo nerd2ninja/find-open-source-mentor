@@ -55,7 +55,7 @@ So, here the story begins...
   
   -gem install execjs
   
-  -gem install duktape
+  -sudo apt-get install node.js
 
   - `bundle install`
   - Go to https://github.com/settings/tokens and create your personal api_tokens, which are specified in .env.example
