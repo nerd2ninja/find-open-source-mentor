@@ -52,6 +52,8 @@ So, here the story begins...
   - if needed `rvm use ruby-2.6.0` (close and open Terminal to apply changes)
 
   -sudo apt-get install libpq-dev
+  
+  -gem install execjs
 
   - `bundle install`
   - Go to https://github.com/settings/tokens and create your personal api_tokens, which are specified in .env.example
