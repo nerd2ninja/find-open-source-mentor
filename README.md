@@ -54,6 +54,8 @@ So, here the story begins...
   -sudo apt-get install libpq-dev
   
   -gem install execjs
+  
+  -gem install duktape
 
   - `bundle install`
   - Go to https://github.com/settings/tokens and create your personal api_tokens, which are specified in .env.example
