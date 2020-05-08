@@ -56,12 +56,20 @@ So, here the story begins...
   -gem install execjs
   
   -sudo apt-get install node.js
+  
+  -close terminal to ensure you are no longer running commands as sudo and relaunch the terminal
 
-  - `bundle install`
+  - bundle install
+  - sudo passwd postgres
+  - set a password
+  - su postgres
+  - psql
+  - postgres=#CREATE ROLE name_of_ubuntu_user WITH SUPERUSER CREATEDB CREATEROLE LOGIN ENCRYPTED PASSWORD 'enter_password_here';
   - Go to https://github.com/settings/tokens and create your personal api_tokens, which are specified in .env.example
   - Create file .env in main directory (same directory where .env.example is) and specify those keys there, for example: 
   * GITHUB_APP_ID=59ef67a3328f769
   * GITHUB_APP_SECRET=901d023bbe4887b96ed54cd05e64a
+  - close terminal to ensure you are no longer running commands as sudo. This will switch you back to your ubuntu user as well
   - run `rails db:create` and `rails db:migrate`
   - Start local server with `rails s` and go to localhost:3000
   - Choose issue which you want to do and comment with 'I'll take it' in it
